@@ -69,4 +69,8 @@ Public Class Form12
     Private Sub AxWindowsMediaPlayer1_EndOfStream(ByVal sender As System.Object, ByVal e As AxWMPLib._WMPOCXEvents_EndOfStreamEvent) Handles AxWindowsMediaPlayer1.EndOfStream
 
     End Sub
+
+    Private Sub AxWindowsMediaPlayer1_Enter_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AxWindowsMediaPlayer1.Enter
+
+    End Sub
 End Class
